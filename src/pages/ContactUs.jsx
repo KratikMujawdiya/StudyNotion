@@ -23,7 +23,7 @@ const ContactUs = () => {
                                         <h2 className='text-lg' >Chat on Us</h2>
                                     </div>
                                     <p className='text-xs text-richblack-200 ml-4'>Our friendly team is here to help <br />
-                                        <a href="mailto:deepanshusinghal2003@gmail.com">deepanshusinghal2003@gmail.com</a> </p>
+                                        <a href="mailto:kratikmujawdiya0804@gmail.com">kratikmujawdiya0804@gmail.com</a> </p>
                                 </div>
 
                                 <div className='flex flex-col gap-1'>
@@ -32,7 +32,7 @@ const ContactUs = () => {
                                         <h2 className='text-lg'>Visit Us</h2>
                                     </div>
                                     <p className='text-xs ml-4 text-richblack-200'>Our friendly team is here to help <br />
-                                        <a href="mailto:deepanshusinghal2003@gmail.com">deepanshusinghal2003@gmail.com</a> </p>
+                                        <a href="mailto:kratikmujawdiya0804@gmail.com">kratikmujawdiya0804@gmail.com</a> </p>
                                 </div>
 
                                 <div className='flex flex-col gap-1'>
@@ -41,7 +41,7 @@ const ContactUs = () => {
                                         <h2 className='text-lg'>Call Us</h2>
                                     </div>
                                     <p className='text-xs ml-4 text-richblack-200'>Our friendly team is here to help <br />
-                                        <a href="mailto:deepanshusinghal2003@gmail.com">deepanshusinghal2003@gmail.com</a> </p>
+                                        <a href="mailto:kratikmujawdiya0804@gmail.com">kratikmujawdiya0804@gmail.com</a> </p>
                                 </div>
 
                             </div>
