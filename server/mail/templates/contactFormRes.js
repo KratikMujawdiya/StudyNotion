@@ -72,8 +72,6 @@ exports.contactUsEmail = (
     
     </head>
     
-    //https://thestudynotion.vercel.app/
-    
     <body>
         <div class="container">
             <a href="https://study-notion-7gxu.vercel.app/"><img class="logo"
