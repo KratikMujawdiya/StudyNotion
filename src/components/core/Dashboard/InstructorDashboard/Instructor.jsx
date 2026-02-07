@@ -115,7 +115,7 @@ const Instructor = () => {
                         )
                         : (<div className='w-full flex  flex-col gap-3 items-center justify-center'>
                             <p className='sm'>You have not created any courses yet</p>
-                            <Link to={"/dashboard/addCourse"}
+                            <Link to={"/dashboard/add-course"}
                                 className='text-sm'>
                                 Create a Course
                             </Link>
