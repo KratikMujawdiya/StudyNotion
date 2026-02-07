@@ -45,9 +45,9 @@ const Footer = () => {
                                 })}
                             </div>
                             <div className="flex gap-3 text-lg">
-                                <Link to={"https://github.com/deepanshusinghal16/"} ><FaGithub /></Link>
+                                <Link to={"https://github.com/KratikMujawdiya"} ><FaGithub /></Link>
                                 <FaGoogle />
-                                <Link to={"https://www.linkedin.com/in/singhal03/"}><FaLinkedin /></Link>
+                                <Link to={"https://www.linkedin.com/in/kratik-mujawdiya-77b917253"}><FaLinkedin /></Link>
                                 <FaYoutube />
                             </div>
                             <div></div>
