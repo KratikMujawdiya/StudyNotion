@@ -269,16 +269,6 @@ const CourseInformationForm = () => {
                 setValue={setValue}
                 editData={editCourse ? course?.thumbnail : null}
             />
-                {/*<Upload
-               label="Thumbnail"
-               id="courseImage"
-               name="courseImage"
-               register={register}
-               errors={errors}
-               setValue={setValue}
-               editData={editCourse && course ? course.thumbnail : null}
-          />*/}
-
 
             {/* Benifits of the course */}
             <div className='px-1 space-y-1'>
