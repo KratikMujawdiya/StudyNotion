@@ -8,7 +8,6 @@ import { Player } from "video-react"
 
 export default function Upload({
     disabled,
-    id,//add by me
     name,
     label,
     register,
@@ -59,7 +58,7 @@ export default function Upload({
     return (
         //htmlFor{name} ki jagah htmlFor={id}
         <div className="flex flex-col space-y-2">
-            <label className="text-sm text-richblack-100 px-1" htmlFor={id}>
+            <label className="text-sm text-richblack-100 px-1" htmlFor={name}>
                 {label} {!viewData && <sup className="text-pink-200">*</sup>}
             </label>
             <div
@@ -97,12 +96,7 @@ export default function Upload({
                         className="flex w-full flex-col items-center p-6"
                         {...getRootProps()}
                     >
-                        <input
-                          {...getInputProps()}
-                          ref={inputRef}
-                          id={id}        
-                          name={name}   
-                        />
+                      <input {...getInputProps()} ref={inputRef} />
                             <div className="grid aspect-square w-16 place-items-center rounded-full bg-pure-greys-800">
                             <FiUploadCloud className="text-2xl text-yellow-50" />
                         </div>
