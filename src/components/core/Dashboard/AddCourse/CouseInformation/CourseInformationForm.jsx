@@ -260,7 +260,7 @@ const CourseInformationForm = () => {
                 getValues={getValues}
             />
 
-            {/*<Upload
+            <Upload
                 label="Thumbnail"
                 id="courseImage"
                 name="courseImage"
@@ -268,8 +268,8 @@ const CourseInformationForm = () => {
                 errors={errors}
                 setValue={setValue}
                 editData={editCourse ? course?.thumbnail : null}
-            />*/}
-            <Upload
+            />
+                {/*<Upload
                label="Thumbnail"
                id="courseImage"
                name="courseImage"
@@ -277,7 +277,7 @@ const CourseInformationForm = () => {
                errors={errors}
                setValue={setValue}
                editData={editCourse && course ? course.thumbnail : null}
-          />
+          />*/}
 
 
             {/* Benifits of the course */}
