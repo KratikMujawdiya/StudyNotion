@@ -14,9 +14,9 @@ const otpSchema = new mongoose.Schema({
     createdAt: {
         type: Date,
         default: Date.now(),
-        expires: 10 * 60 * 1000,
+        //expires: 10 * 60 * 1000,
+        expires: 10 * 60,
     }
-
 });
 
 //to send the email
