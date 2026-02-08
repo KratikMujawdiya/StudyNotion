@@ -126,6 +126,7 @@ const SubSectionModal = ({
                 <form onSubmit={handleSubmit(onSubmit)} className='my-2 flex flex-col  gap-y-4 py-4 px-4'>
                     <Upload
                         // disabled={view}
+                         id="lectureVideo"
                         name="lectureVideo"
                         label="Lecture Video"
                         register={register}
